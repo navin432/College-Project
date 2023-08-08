@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-image: url("../images/background_swyambunath.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+header h1{
+  text-shadow: 3px 3px 0 #000;
+}
+.main {
+  font-size: 4rem;
+  margin-top: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+header img:hover {
+  transform: scale(1.1);
+}
+p {
+  border:1px solid #007bff;
+  border-style: solid none;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+}
+
+
+li:last-child {
+  border-bottom: none;
+}
+
+footer li:hover {
+  background-color: #444;
+  color: #fff;
+}
+.nctimg {
+  background-color: rgb(92, 181, 216);
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 45px;
+}
+footer h3{
+  text-shadow: 1px 1px 0 #000;
+  color: white;
+}

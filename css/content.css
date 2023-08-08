@@ -1,0 +1,56 @@
+body{
+    font-size: 1.2rem;
+    background-color:  rgb(211, 203, 54) 100%;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #333;
+    margin-top: 0;
+}
+.wrapper h1,h2,h3{
+    text-align: center;
+    text-shadow: 2px 2px 0 #fff;
+}
+h1{
+    margin-bottom: 0;
+}
+section{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    padding: 0.2rem;
+}
+h3{
+    color: #333;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0.5rem 1rem 0 0;
+    object-fit: cover;
+    border-radius: 25px;
+} 
+img.monkey{
+    height: 70vh;
+}
+div.row{
+    display: flex;
+    flex-direction: column;
+}
+.rfirst,.rlast{
+    flex-basis: 2rem;
+    flex-grow: 1;
+    margin-right: 0.5rem;
+}
+@media screen and (min-width:900px) {
+    div.row{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:1800px) {
+    .rfirst img{
+        height: 350px;
+    }
+    .rlast img{
+        height: 550px;
+    }
+}

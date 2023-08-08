@@ -1,0 +1,39 @@
+body{
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(113, 148, 156, 0.516) 35%,
+    rgba(255, 255, 255, 0.871608018207283) 100%
+  );
+}
+h3 {
+  text-align: center;
+  text-shadow: 2px 2px 0 #ff8800;
+}
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  margin: 0.4rem;
+  width: 700px;
+  height: 550px;
+}
+td {
+  padding: 0.2rem;
+}
+img {
+  width: 700px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 25px;
+  transition: transform 0.4s ease-in;
+}
+td img:hover {
+  transform: perspective(200px) rotateY(5deg);
+  transform-origin: 0 50%;
+}
+figcaption{
+    margin: 0.4rem;
+}
